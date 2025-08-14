@@ -1,0 +1,19 @@
+[project]
+name = "superdoc-test-repo"
+version = "0.0.1"
+authors = [
+    {name = "Christian Dannie Storgaard"},
+]
+requires-python = ">=3.12,<3.13"
+dependencies = [
+    "dateparser>=1.2.2",
+    "environs>=14.3.0",
+    "fastapi[standard]>=0.116.1",
+    "python-docx>=1.2.0",
+    "python-multipart>=0.0.20",
+    "uvicorn>=0.35.0",
+    "wsproto>=1.2.0",
+]
+
+[tool.setuptools]
+py-modules = [ "server" ]
